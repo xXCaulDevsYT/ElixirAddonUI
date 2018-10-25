@@ -1,6 +1,6 @@
 <?php
 
-namespace Fadhel;
+namespace ElixirHCF;
 
 use pocketmine\Server;
 use pocketmine\Player;
