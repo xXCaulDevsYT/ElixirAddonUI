@@ -16,7 +16,7 @@ class Main extends PluginBase implements Listener{
 		$this->getLogger()->Info(C::GREEN. "Enabled!");
 		}
 		
-	public function onRun(int $tick) : void{
+	public function onJoin(PlayerJoinEvent $event){
 		$player = $event->getPlayer();
     $this->openMyForm($player);
 		}
