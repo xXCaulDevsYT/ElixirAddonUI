@@ -16,7 +16,7 @@ class Main extends PluginBase implements Listener{
 		$this->getLogger()->Info(C::GREEN. "Enabled!");
 		}
 		
-	public function onJoin(PlayerJoinEvent $event){
+	public function onRun(int $tick) : void{
 		$player = $event->getPlayer();
     $this->openMyForm($player);
 		}
@@ -34,9 +34,9 @@ class Main extends PluginBase implements Listener{
             
             
             });
-            $form->setTitle("§b§lWelcome!");
-            $form->setContent("§e Thanks for playing on our §bServer§e!");
-            $form->addButton("Exit");
+            $form->setTitle("§lWelcome!");
+            $form->setContent("§eWelcome to the §bServer\n§fIf you found any bugs tell the staff please!");
+            $form->addButton("Play");
             $form->sendToPlayer($player);                  
             return $form;                                            
 				}
