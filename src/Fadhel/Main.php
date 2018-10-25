@@ -34,9 +34,10 @@ class Main extends PluginBase implements Listener{
             
             
             });
-            $form->setTitle("§lWelcome!");
-            $form->setContent("§eWelcome to the §bServer\n§fIf you found any bugs tell the staff please!");
-            $form->addButton("Play");
+            $form->setTitle("§f== §l§4WELCOME§r§f ==");
+            $form->setContent("§6Welcome§e, §7To §5Elixir§dHCF§7 Please pick a language!");
+            $form->addButton("§a§lEnglish\n§7Available");
+	    $form->addButton("§c§lSpanish\n§7Coming Soon");
             $form->sendToPlayer($player);                  
             return $form;                                            
 				}
