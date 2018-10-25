@@ -1,4 +1,4 @@
-name: JoinUI
-main: Fadhel\Main
+name: ElixirHCF-Lang
+main: ElixirHCF\Main
 api: [3.0.0, 3.0.2, 4.0.0]
-version: 0.1
+version: 1.0
